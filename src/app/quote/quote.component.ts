@@ -12,6 +12,10 @@ export class QuotesComponent implements OnInit {
     new Quote(1, 'Mykey', 'Life', 'He who marries beauty mrries trouble', new Date(2020/6/6)),
     new Quote(2, 'Yvette', 'Life', 'Only a fool tests the depth of a river with both feet', new Date(2020/6/6)),
     new Quote(3, 'Johnny', 'Technology', 'He who does not know one thing knows another.', new Date(2020/6/6)),
+    new Quote(1, 'Sandra', 'Life', 'Your charracter is determined by what you laugh at', new Date(2020/6/6)),
+    new Quote(1, 'Kenny', 'Maisha', 'Hii ni ngori', new Date(2020/6/6)),
+    new Quote(1, 'Kabogo', 'sijui', 'Cheka tu, hakuna otherwise', new Date(2020/6/6)),
+    
   ]
 
   completeGoal(isComplete, index){
