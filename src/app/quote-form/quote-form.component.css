@@ -1,0 +1,13 @@
+.name-title{
+    font-family: sans-serif;
+}
+
+#form-cont{
+    background-color: rgba(0, 0, 0, 0.178);
+    padding: 10px;
+}
+
+.inputStyling{
+    background: transparent;
+    color: #160303;
+}
