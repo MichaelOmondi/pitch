@@ -1,5 +1,5 @@
 <div class="container-fluid" id="form-cont">
-    <h2 class="text-center text-light name-title">Add Quote</h2>
+    <h2 class="text-center text-light name-title">Add Pitch</h2>
     <hr>
     <form (ngSubmit)='submitQuote(); quoteForm.resetForm({})' #quoteForm='ngForm'>
         <div class="font-group">
@@ -10,19 +10,19 @@
             </div>
         </div>
         <div class="form-group">
-            <label class="text-light name-title" for="quoteTitile">Quote Title</label>
+            <label class="text-light name-title" for="quoteTitile">Pitch Title</label>
             <input class="form-control inputStyling" type="text" id="quoteTitile" name="quoteTitle" [(ngModel)]="newQuote.quoteTitle" #quoteTitile='ngModel' required>
             <div [hidden]="quoteTitile.valid || quoteTitile.pristine" class="alert alert-danger">
-                <p>Insert your Quote</p>
+                <p>Insert your Pitch</p>
             </div>
         </div>
         <div class="form-group">
-            <label class="text-light name-title" for="quoteMessage">Quote Message</label>
+            <label class="text-light name-title" for="quoteMessage">Pitch Message</label>
             <textarea class="form-control inputStyling" type="text" id="quoteMessage" name="quoteMessage" cols="30" rows="8" [(ngModel)]="newQuote.quoteMessage" #quoteMessage='ngModel' required></textarea>
             <div [hidden]="quoteMessage.valid || quoteMessage.pristine" class="alert alert-danger">
                 <p>Insert the Message</p>
             </div>
         </div>
-        <button type="submit" class="btn btn-info">Add Quote</button>
+        <button type="submit" class="btn btn-info">Add Pitch</button>
     </form>
 </div>

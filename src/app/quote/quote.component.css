@@ -22,7 +22,7 @@
 }
 
 .hr{
-    background: black;
+    background: whitesmoke;
 }
 
 .card-text{
@@ -32,7 +32,7 @@
 }
 
 #background{
-    background-image: url(/images/);
+    background-color: black;
     height: auto;
     padding-bottom: 10px;
 }
