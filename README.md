@@ -1,58 +1,125 @@
-# Pitch
+## PROJECT  NAME 
+ - ONE MINUTE PITCH 
 
-## Author
-[Michael Omondi]
+## AUTHOR 
+ - CATHERINE NDUKU
 
-## Description
-An agular app that displays pitches, and allows the user to input new favourite quote, like, dislike and delete the pitch
+ ## DESCRIPTION 
+ - This is a Python-Flask Application that allows users to create one minute pitch. You only have 60 seconds to impress someone. 1 minute can make or break you.
+The users will submit their one minute pitches and other users will vote on them and leave comments to give their feedback on them.
 
-## Live Page
+ ## BDD(Behaviour Driven Development)
+
+  ![alt text](img.png)
+
+>Login Inputs
+
+| Inputs |  Description |
+| :---         |          ---: |
+| Username  | Account username, ``eg lauradoe``|
+| Password  | Account password, ``eg laura23``|
+
+>Signup inputs
+
+| Inputs |  Description |
+| :---         |          ---: |
+| Username  | Account username, ``eg lauradoe``|
+| Email  | User email, ``eg morty@testmail.com``|
+| Password  | Account password, ``eg laura23``|
+| Confirm Password  | Account password, ``eg laura23``|
+
+> Pitches inputs
+
+| Inputs | Description  |
+|---|---|
+|  Heading | Pitch description eg; ``pickup lines``  |
+|  Pitch text| The actual pitch body|
+| Comment| A comment on the pitch|
+
+## User Story
+
+- Users can see the pitches other people have posted.
+
+- Users can vote on the pitch they liked and give it a downvote or upvote.
+
+- Users can sign in to leave a comment.
+
+- Users can register on the website.
+
+- Users can view the pitches they have created in their profile page..
+
+- Users can comment on the different pitches and leave feedback. 
+
+- Users can submit a pitch in any category. 
+
+- Users can view the different categories. 
+
+## Technologies used
+* Python3
+* Flask
+* Javascript
+* Particle Js
+* Html5
+* Css3
+* Bootstrap4
 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.6.
+# Prerequisites
 
-## Development server
+To work with ONE MINUTE PITCH App you need to have some few prerequisites.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- Python3.6
 
-## Code scaffolding
+- pip
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- Flask 
 
-## Build
+- pyperclip
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+- Code/text editor
 
-## Running unit tests
+- Terminal
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Installations
 
-## Running end-to-end tests
+The following command installs all the application requirements
+>``pip freeze -r requirements.txt``
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Setup
+Run 
+``git clone https://github.com/catherine244/Pitch.git``
 
-## Further help
+or download the zip file from github.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+After extracting the files, 
 
-## Installation / Setup instruction
-* Open Terminal {Ctrl+Alt+T}
-* cd Quotes-App
-* code . or atom . based on the text editor you have.
+1. Navigate to the project folder
+>`` cd gitSearch.`` 
 
-## Technologies Used
-* HTML5
-* CSS
-* [AngulerCLI]
-* markdown
-* Bootstrap
+2. Creating a virtual environment
+>``virtualenv virtual.``
 
-## Known Bugs
-* Some functionality did not work as expected
+3. Activating the virtual environment
+>``source virtual/bin/activate.``
 
-## Contact Information
-In case of any  query, feel free to reach me via e-mail omondimike11@gmail.com
+4. Running the application
+>``python3 manage.py server``
 
-## License
-* MIT License:  
-* Copyright &copy; 2020 | Michael Omondi
+5. Running tests
+
+ > ``python3 manage.py test.``
+
+
+
+## Contacts 
+**ccayreen24@gmail.com**
+
+
+## Live link 
+**You can view the project through this link**
+https://catepitch.herokuapp.com/
+
+
+## License 
+
+#### [*GNU License*](LICENSE)
