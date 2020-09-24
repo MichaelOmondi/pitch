@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #23374d;
-    background_image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img(20).jpg");
+    background_image: url("https://images.unsplash.com/photo-1541351555222-2625e7c3adda?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
 }
 
 #particles-js {

@@ -28,8 +28,8 @@ class User(UserMixin, db.Model):
     def check_password(self, password):
         return check_password_hash(self.password, password)
 
-    def __repr__(self):
-        return f'User: {self.username}'
+    # def __repr__(self):
+    #     return f'User: {self.username}'
 
 
 @login_manager.user_loader
@@ -57,8 +57,8 @@ class Post(db.Model):
         db.session.delete(self)
         db.session.commit()
 
-    def __repr__(self):
-        return f"Post Title: {self.title}"
+    # def __repr__(self):
+    #     return f"Post Title: {self.title}"
 
 
 class Comment(db.Model):
@@ -81,8 +81,8 @@ class Comment(db.Model):
         db.session.delete(self)
         db.session.commit()
 
-    def __repr__(self):
-        return f'Comments: {self.comment}'
+    # def __repr__(self):
+    #     return f'Comments: {self.comment}'
 
 
 class Upvote(db.Model):
@@ -110,8 +110,8 @@ class Upvote(db.Model):
         upvotes = Upvote.query.order_by('id').all()
         return upvotes
 
-    def __repr__(self):
-        return f'{self.user_id}:{self.post_id}'
+    # def __repr__(self):
+    #     return f'{self.user_id}:{self.post_id}'
 
 
 class Downvote(db.Model):
@@ -139,5 +139,5 @@ class Downvote(db.Model):
         downvote = Downvote.query.order_by('id').all()
         return downvote
 
-    def __repr__(self):
-        return f'{self.user_id}:{self.post_id}'
+    # def __repr__(self):
+    #     return f'{self.user_id}:{self.post_id}'
